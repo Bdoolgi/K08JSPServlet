@@ -149,7 +149,7 @@ else {
    	
     <table border="1" width="90%">
         <tr align="center">
-        <div class="container mt-3">
+        
         <!-- 페이징 처리 -->
         	<td>
         		
@@ -164,7 +164,7 @@ else {
         
             <td><button type="button" class="btn-primary" onclick="location.href='Write.jsp';">글쓰기
                 </button></td>
-	</div>
+	
         </tr>
     </table>
 </body>
