@@ -54,7 +54,7 @@ public class DBConnPool {
 	//사용이 끝난 객체는 Pool에 반납한다. 즉 여기서의 close()는 객체의 소멸이 아니다.
 	public void close() {
 		try {
-			if(rs!=null)rs.close();
+			if(con!=null)con.close();
 			if(stmt!=null)stmt.close();
 			if(psmt!=null)psmt.close();
 			if(rs!=null)rs.close();

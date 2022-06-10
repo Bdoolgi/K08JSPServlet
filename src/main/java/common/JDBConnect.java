@@ -40,10 +40,10 @@ public class JDBConnect {
 	public void close() {
 		try {
 			//객체가 생성된것을 확인 후 자원 반납 처리
-			if(rs!=null)rs.close();
+			if(con!=null)con.close();
 			if(stmt!=null)stmt.close();
 			if(psmt!=null)psmt.close();
-			if(con!=null)con.close();
+			if(rs!=null)rs.close();
 			
 			System.out.println("JDBC 자원 해제");
 		}
